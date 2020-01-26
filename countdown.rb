@@ -10,7 +10,8 @@ end
   
   
   def coundown_with_sleep(number)
-    sleep(1)
+    num_secs = 1
+    sleep(num_secs)
     while number > 0
     puts "#{number} SECOND(S)!"
    number -= 1
